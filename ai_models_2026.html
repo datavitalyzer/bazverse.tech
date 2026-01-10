@@ -50,7 +50,10 @@
 				background: var(--navy);
 				color: white;
 				padding: 50px 45px 45px 45px;
-			}
+			  display: flex;           /* enable flex layout */
+  align-items: center;     /* vertically center icon and text */
+  gap: 20px;               /* space between icon and title */
+}
 
 			.header h1 {
 				font-family: 'Merriweather', serif;
@@ -60,6 +63,10 @@
 				line-height: 1.25;
 			}
 
+			.header-icon {
+  width: 50px;             /* adjust icon size */
+  height: 50px;
+}
 			.header .subtitle {
 				font-size: 1.15em;
 				opacity: 0.92;
@@ -356,18 +363,26 @@
 				h2 { font-size: 1.65em; }
 				.model-header { flex-direction: column; align-items: flex-start; }
 			}
+
+			.site-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="header">
-				<h1>The 6 AI Models Reshaping 2026</h1>
-							</div>
+  <img src="https://avatars.githubusercontent.com/u/219580810?s=400&u=a1451c5cd912fd1ebae3b809e1098ac363e6c315&v=4" alt="AI Icon" class="header-icon">
+  <h1>The 6 AI Models Reshaping 2026</h1>
+</div>
+
 
 			<div class="content">
-				<p class="intro-text">The AI industry moves fast—sometimes too fast to keep up. Every few months brings new model releases, updated capabilities, and bold claims about what's possible. But cutting through the noise to understand which models actually matter for real work? That's harder than it should be.</p>
+				<p class="intro-text">The AI industry moves fast, sometimes too fast to keep up and every few months brings new model releases, updated capabilities, and bold claims about what's possible, but cutting through the noise to understand which models actually matter for real work? That's harder than it should be.</p>
 
-				<p>After spending considerable time testing and comparing the major players in the field, I've put together this analysis of the six AI models that are defining the landscape in early 2026. This isn't about hype or theoretical benchmarks. It's about understanding what these models can actually do, where they excel, and how to choose the right one for your specific needs.</p>
+				<p>After spending considerable time testing and comparing the major players in the field, I've put together this analysis of the six AI models that -in my point if view- are defining the landscape in early 2026. This isn't about hype or theoretical benchmarks. It's about understanding what these models can actually do, where they excel, and how to choose the right one for your specific needs.</p>
 
 				<h2>The Current Landscape</h2>
 				
