@@ -17,7 +17,7 @@ For other articles covering a variety of topics, check out my main website: [Baz
 ---
 
 ### ⭐ Support & Follow
-If you find these articles helpful, **give this repository a star ⭐** and **follow** to stay updated with new posts and insights! Your support helps me continue sharing high-quality tech content.  
+If you find these articles helpful, **give this repository a star ⭐** and **follow** to stay updated with new posts and insights, your support helps me continue sharing high-quality tech content.  
 
 ---
 
